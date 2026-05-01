@@ -11,6 +11,8 @@ A modern, responsive landing page for **Prodesk IT**, a full-service software en
 ├── styles.css      # Styling, theming, animations, and responsive layout
 └── script.js       # Dark/light toggle & mobile nav logic
 └── screenshots/    # Screenshots of the website
+└── Prompts.md      # AI prompts i used
+└── README.md       # Description 
 
 ```
 
