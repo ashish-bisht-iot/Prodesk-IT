@@ -10,10 +10,6 @@ A modern, responsive landing page for **Prodesk IT**, a full-service software en
 ├── index.html      # Main HTML document (all sections & markup)
 ├── styles.css      # Styling, theming, animations, and responsive layout
 └── script.js       # Dark/light toggle & mobile nav logic
-└── screenshots/    # Screenshots of the website
-└── Prompts.md      # AI prompts i used
-└── README.md       # Description 
-
 ```
 
 ---
@@ -65,25 +61,6 @@ Themes are applied via `data-theme="dark|light"` on the `<html>` element.
 
 ---
 
-## 🚀 Getting Started
-
-No build step is needed. Just open `index.html` in a browser:
-
-```bash
-# Option 1 — open directly
-open index.html
-
-# Option 2 — serve locally (Python)
-python -m http.server 8000
-
-# Option 3 — serve locally (Node.js)
-npx serve .
-```
-
-Then visit `http://localhost:8000` in your browser.
-
----
-
 ## 📱 Responsive Breakpoints
 
 | Breakpoint | Behaviour |
@@ -94,20 +71,24 @@ Then visit `http://localhost:8000` in your browser.
 
 ---
 
-## 🛠️ Customization
+## 📸 Screenshots
 
-**Swap brand colors** — Edit `--accent` and `--accent2` in `:root` and `[data-theme="light"]` inside `styles.css`.
+### 🖥️ Desktop View
 
-**Update content** — All copy (headlines, descriptions, stats) lives directly in `index.html`.
+![Desktop View](Desktop_view.png)
 
-**Add a service card** — Duplicate a `.service-card` block in the `#services` section and update the number, title, and description.
+### 🌙 Dark Mode
 
-**Wire up the contact form** — The form in `#contact` is currently static. Connect it to a backend or service like [Formspree](https://formspree.io) or [EmailJS](https://www.emailjs.com) by adding an `action` attribute or a `submit` event listener in `script.js`.
+![Dark Mode](Dark_mode_view.png)
 
-**Replace social links** — Update the `href="#"` values on each `.social-icon` anchor in the footer with real profile URLs.
+### ☀️ Light Mode
 
----
+![Light Mode](Light_mode_view.png)
 
-## 📄 License
+### 📱 Mobile — iPhone
 
-© 2026 **Prodesk IT**. All rights reserved.
+![iPhone View](iphone_view.png)
+
+### 🤖 Mobile — Android
+
+![Android View](Andriod_view.png)
