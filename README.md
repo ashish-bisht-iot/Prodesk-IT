@@ -75,20 +75,20 @@ Themes are applied via `data-theme="dark|light"` on the `<html>` element.
 
 ### 🖥️ Desktop View
 
-![Desktop View](Desktop_view.png)
+![Desktop View](screenshots/Desktop_view.png)
 
 ### 🌙 Dark Mode
 
-![Dark Mode](Dark_mode_view.png)
+![Dark Mode](screenshots/Dark_mode_view.png)
 
 ### ☀️ Light Mode
 
-![Light Mode](Light_mode_view.png)
+![Light Mode](screenshots/Light_mode_view.png)
 
 ### 📱 Mobile — iPhone
 
-![iPhone View](iphone_view.png)
+![iPhone View](screenshots/iphone_view.png)
 
 ### 🤖 Mobile — Android
 
-![Android View](Andriod_view.png)
+![Android View](screenshots/Andriod_view.png)
